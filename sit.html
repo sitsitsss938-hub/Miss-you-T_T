@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Do you love me?</title>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&family=Playfair+Display:ital,wght@1,600&family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="sit.css">
+</head>
+<body>
+<div class="bg" aria-hidden="true"><i>&#10084;</i><i>&#10084;</i><i>&#10084;</i><i>&#10084;</i><i>&#10084;</i></div>
+<main>
+  <svg class="cat" id="cat" viewBox="0 0 150 150" aria-hidden="true">
+    <path d="M30 60 L38 18 L66 40Z M120 60 L112 18 L84 40Z" fill="#fff" stroke="#333" stroke-width="3" stroke-linejoin="round"/>
+    <ellipse cx="75" cy="85" rx="50" ry="42" fill="#fff" stroke="#333" stroke-width="3"/>
+    <g id="eyes"><circle cx="55" cy="82" r="5" fill="#333"/><circle cx="95" cy="82" r="5" fill="#333"/></g>
+    <path d="M62 44 Q75 30 88 44 Q75 52 62 44Z" fill="#e8527f" stroke="#333" stroke-width="2"/><circle cx="75" cy="43" r="4" fill="#c2185b"/>
+    <ellipse cx="42" cy="95" rx="8" ry="5" fill="#ff9db8" opacity=".7"/><ellipse cx="108" cy="95" rx="8" ry="5" fill="#ff9db8" opacity=".7"/>
+    <path id="mouth" d="M67 98 Q75 106 83 98" fill="none" stroke="#333" stroke-width="3" stroke-linecap="round"/>
+  </svg>
+  <h1 id="title">Do you love me? &#10084;&#65039;</h1>
+
+  <section id="ask" class="row">
+    <button id="yes">YES</button>
+    <button id="no">NO</button>
+  </section>
+
+  <section id="after" class="hidden">
+    <div class="gifts">
+      <button class="gift" data-g="1"><span>&#127873;</span>Gift 1</button>
+      <button class="gift" data-g="2"><span>&#127873;</span>Gift 2</button>
+      <button class="gift" data-g="3"><span>&#127873;</span>Gift 3</button>
+    </div>
+    <div id="view"></div>
+  </section>
+</main>
+
+<script src="sit.js"></script>
+</body>
+</html>
