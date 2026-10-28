@@ -12,8 +12,8 @@ const CFG = {
   ],
   signature: "Forever yours"
 };
-// Photos: put your images in the photos/ folder and list them here
-const PHOTOS = ["photos/1.jpg","photos/2.jpg","photos/3.jpg","photos/4.jpg"];
+// Photos: put your images in the img/ folder and list them here
+const PHOTOS = ["img/1.jpg","img/2.jpg","img/3.jpg","img/4.jpg"];
 // ==================================
 
 const $ = s => document.querySelector(s);
